@@ -1,1 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    
+    <title>youtube clone</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="toggle-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <img src="https://th.bing.com/th?id=OIP.fU1lUSbIuYswKjwGrK1BrgHaEK&w=333&h=187&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" alt="logo" class="logo">
+        <div class="search-box">
+            <input type="text" class="search-bar" placeholder="search">
+            <button class="search-btn"><img src="https://github.com/kunaal438/youtube-clone/blob/master/img/search.PNG?raw=true" alt=""></button>
+        </div>
+        <div class="user-options">
+            <img src="https://github.com/kunaal438/youtube-clone/blob/master/img/video.PNG?raw=true" class="icon" alt="">
+            <img src="https://github.com/kunaal438/youtube-clone/blob/master/img/grid.PNG?raw=true" class="icon" alt="">
+            <img src="https://github.com/kunaal438/youtube-clone/blob/master/img/bell.PNG?raw=true" class="icon" alt="">
+            <div class="user-dp">
+                <img src="https://github.com/kunaal438/youtube-clone/blob/master/img/profile-pic.png?raw=true" alt="">
+            </div>
+        </div>
+    </nav>
+
+    <!-- sidebar -->
+    <div class="side-bar">
+        <a href="#" class="links active"><img src="https://github.com/kunaal438/youtube-clone/blob/master/img/home.PNG?raw=true" alt="">home</a>
+        <a href="#" class="links"><img src="https://github.com/kunaal438/youtube-clone/blob/master/img/explore.PNG?raw=true" alt="">explore</a>
+        <a href="#" class="links"><img src="https://github.com/kunaal438/youtube-clone/blob/master/img/subscription.PNG?raw=true" alt="">subscription</a>
+        <hr class="seperator">
+        <a href="#" class="links"><img src="https://github.com/kunaal438/youtube-clone/blob/master/img/library.PNG?raw=true" alt="">library</a>
+        <a href="#" class="links"><img src="https://github.com/kunaal438/youtube-clone/blob/master/img/history.PNG?raw=true" alt="">history</a>
+        <a href="#" class="links"><img src="https://github.com/kunaal438/youtube-clone/blob/master/img/your-video.PNG?raw=true" alt="">your video</a>
+        <a href="#" class="links"><img src="https://github.com/kunaal438/youtube-clone/blob/master/img/watch-later.PNG?raw=true" alt="">watch leater</a>
+        <a href="#" class="links"><img src="https://github.com/kunaal438/youtube-clone/blob/master/img/liked%20video.PNG?raw=true" alt="">like video</a>
+        <a href="#" class="links"><img src="https://github.com/kunaal438/youtube-clone/blob/master/img/show%20more.PNG?raw=true" alt="">show more</a>
+    </div>
+
+    <!-- filters -->
+    <div class="filters">
+        <button class="filter-options active">all</button>
+        <button class="filter-options">CSS</button>
+        <button class="filter-options">web development</button>
+        <button class="filter-options">python</button>
+        <button class="filter-options">entertainment</button>
+        <button class="filter-options">marvel</button>
+        <button class="filter-options">javascript</button>
+        <button class="filter-options">artificial intelligence</button>
+        <button class="filter-options">machine learning</button>
+        <button class="filter-options">trending</button>
+    </div>
+
+    <!-- videos -->
+    <div class="video-container">
+        <!--
+        <div class="video">
+            <img src="https://github.com/kunaal438/youtube-clone/blob/master/img/profile-pic.png?raw=true" class="thumbnail" alt="">
+            <div class="content">
+                <img src="https://github.com/kunaal438/youtube-clone/blob/master/img/profile-pic.png?raw=true" class="channel-icon" alt="">
+                <div class="info">
+                    <h4 class="title">youtube clone 2021 | create working youtube clone</h4>
+                    <p class="channel-name">modern web</p>
+                </div>
+            </div>
+        </div> -->
+    </div>
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
